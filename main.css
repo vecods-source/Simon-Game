@@ -1,0 +1,45 @@
+body{
+    background-color: #011F3F;
+    text-align: center;
+}
+h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    margin:  5%;
+    color: #FEF2BF;
+    animation: playbtn 0.3s infinite alternate;
+}
+@keyframes playbtn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 100;
+    }
+}
+.btn{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    border: black 10px solid;
+}
+.green{
+    background-color: green;
+}
+.red
+{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+.container{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    gap: 2rem;
+}
